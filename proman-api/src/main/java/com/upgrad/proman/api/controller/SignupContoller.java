@@ -31,6 +31,7 @@ public class SignupContoller {
         userEntity.setLastName(signupUserRequest.getLastName());
         userEntity.setEmail(signupUserRequest.getEmailAddress());
         userEntity.setPassword(signupUserRequest.getPassword());
+        userEntity.setMobilePhone(signupUserRequest.getMobileNumber());
         userEntity.setSalt("1234abc");
         userEntity.setStatus(4);
         userEntity.setCreatedAt(ZonedDateTime.now());
